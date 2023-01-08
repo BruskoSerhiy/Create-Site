@@ -2,20 +2,30 @@ body {
     display: grid;
     grid-template-areas: 
     "header header"
-    "aside main"
-    ;
+    "aside main";
     grid-template-rows: 100px 1fr;
     grid-template-columns: 100px 1fr;
     height: 100vh;
-    background-color: rgb(250, 244, 244);
 }
 .root-header {
     grid-area: header;
-    background-color: rgb(196, 189, 181);
 }
 aside {
     grid-area: aside;   
 }
 main {
     grid-area: main;
+}
+.root-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 10px;
+    border-color: #F8309E;
+
+}
+.root-logo {
+    display: block;
+    width: 175px;
+    height: 44px;
 }
