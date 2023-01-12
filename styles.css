@@ -61,10 +61,11 @@ main {
 .circle {
     position: absolute;
     box-sizing: border-box;
-    border: 4px solid #F8309E;
-    border-radius: 6px;
-    width: 6px;
-    height: 6px;
+    background: #F8309E;
+    border: 3px solid #F3F6FA;
+    border-radius: 16px;
+    width: 16px;
+    height: 16px;
     right: -5px;
     top: -3px;
 }
@@ -79,4 +80,7 @@ main {
     content: '';
     clear: both;
     display: table;
+}
+.menu-btn {
+    cursor: pointer;
 }
