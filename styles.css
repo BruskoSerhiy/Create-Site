@@ -5,7 +5,7 @@ body {
     "header header"
     "aside main";
     grid-template-rows: 82px 1fr;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 265px 1fr;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
 }
@@ -79,8 +79,80 @@ main {
 .avatar.btn::after {
     content: '';
     clear: both;
-    display: table;
+    display: inline-block;
 }
 .menu-btn {
+    cursor: pointer;
+}
+.aside-root {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aside-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 28px;
+}
+.aside-position {
+    padding-top: 58px;
+}
+.avatar-position {
+    padding-left: 50px;
+}
+.avatar-img {
+    background-image: url(./images/avatar.png);
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.avatar-name {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #303543;
+    padding-top: 16px;
+}
+.avatar-email {
+    border: none;
+    padding-top: 8px;
+    color:  #F8309E;
+    background: none;
+    text-align: center;
+}
+.navigation {
+    padding-top: 50px;
+    width: 209px;
+    height: 40px;
+}
+.settings {
+    background: #F3F6FA;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+.vector {
+    Width: 16.67px;
+    height:15.83px;
+}
+.setting-line {
+    display: flex;
+    align-items: center;
+}
+.setting-name {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 9.25px;
+}
+.arrow-right {
+    padding-left: 34.25px;
     cursor: pointer;
 }
