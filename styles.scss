@@ -42,7 +42,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 100%;
-    transition: 0..3; 
+    transition: 0.3; 
     cursor: pointer;
 }
 .header-menu:hover {
@@ -69,7 +69,7 @@ main {
     background: #E6E9EE;
     border-radius: 12px;
     cursor: pointer;
-    transition: 0..3;
+    transition: 0.3;
 }
 .icon-btn:hover {
     background-color: rgba(0, 0, 0, 0.1);

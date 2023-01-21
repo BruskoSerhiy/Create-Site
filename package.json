@@ -1,0 +1,23 @@
+{
+  "name": "create-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.57.1"
+  },
+  "scripts": {
+    "styles": "sass styles.scss styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BruskoSerhiy/Create-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BruskoSerhiy/Create-Site/issues"
+  },
+  "homepage": "https://github.com/BruskoSerhiy/Create-Site#readme"
+}
