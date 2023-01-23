@@ -9,7 +9,7 @@
   },
   "scripts": {
     "styles": "sass styles/index.scss styles.css",
-    "dev": "sass styles/index.scss styles.css -w"
+    "dev": "npm run styles -- -w"
   },
   "repository": {
     "type": "git",
