@@ -6,7 +6,6 @@ body {
     "aside main";
     grid-template-rows: 82px 1fr;
     grid-template-columns: 265px 1fr;
-    min-width: 1200px;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
 }
@@ -43,10 +42,7 @@ main {
     justify-content: center;
     height: 100%;
 }
-<<<<<<< HEAD:styles.css
-=======
 
->>>>>>> 513815a186b693b4f0a71fc1d2fbd44bfc3576ed:styles/styles.scss
 .header-menu li {
     transition: 0.3s;
 
@@ -80,11 +76,7 @@ main {
     background: #E6E9EE;
     border-radius: 12px;
     cursor: pointer;
-<<<<<<< HEAD:styles.css
-    transition: 0.3s;
-=======
     transition: 0.3;
->>>>>>> 513815a186b693b4f0a71fc1d2fbd44bfc3576ed:styles/styles.scss
 }
 .icon-btn:hover {
     background-color: rgba(0, 0, 0, 0.1);
@@ -124,67 +116,6 @@ main {
 
 /* And header */
 
-<<<<<<< HEAD:styles.css
-/* start aside */
-
-.conteiner { 
-    align-items: stretch;
-}
-.aside-root {
-    padding-top: 58px;
-}
-.avatar-img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-.avatar {
-    text-align: center;
-}
-.avatar-name {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    color: #303543;
-}
-.avatar-email {
-    text-align: center;
-    border: none;
-    color:  #F8309E;
-    cursor: pointer;
-}
-.avatar-position {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.navigation {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    padding-top: 50px;
-    padding-left: 5px;
-}
-.nav-list-item {
-    display: flex;
-    background: transparent;
-    border-radius: 8px;
-    padding: 20px;
-    gap: 5px;
-}
-.nav-list-item--active {
-    background: #f3f6fa;
-}
-.nav-list-item:hover {
-    background: #f3f6fa;
-    cursor: pointer;
-}
-
-
-/* end aside */
-=======
->>>>>>> 513815a186b693b4f0a71fc1d2fbd44bfc3576ed:styles/styles.scss
 
 /* start main */
 
@@ -255,7 +186,6 @@ main {
 .basic-header {
     padding-bottom: 16px;
 }
-<<<<<<< HEAD:styles.css
 .basic_conteiner {
     display: flex;
     gap: 20px;
@@ -269,17 +199,6 @@ main {
     line-height: 21px;
     color: #303543;
 }
-=======
-
-.basic__container {
-    display: flex;
-    gap: 20px;
-}
-
-.basic__container__form {
-    flex-grow: 1;
-}
->>>>>>> 513815a186b693b4f0a71fc1d2fbd44bfc3576ed:styles/styles.scss
 .form {
     display: flex;
     flex-direction: column;
@@ -294,7 +213,6 @@ input {
     border-radius: 8px;
     padding-left: 10px;
     border: none;
-<<<<<<< HEAD:styles.css
     min-height: 50px;
 }
 input:focus {
@@ -438,15 +356,4 @@ input::placeholder {
       width: 100%;
       height: 25px;
     }
- 
-=======
-}
-
-input:focus {
-    outline: 0;
-}
-
-input::placeholder {
-    color: #808897;
-}
->>>>>>> 513815a186b693b4f0a71fc1d2fbd44bfc3576ed:styles/styles.scss
+    
