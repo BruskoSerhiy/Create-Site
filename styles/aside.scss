@@ -1,0 +1,53 @@
+.conteiner {
+    align-items: stretch;
+}
+.aside-root {
+    padding-top: 58px;
+}
+.avatar-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.avatar {
+    text-align: center;
+}
+.avatar-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #303543;
+}
+.avatar-email {
+    text-align: center;
+    border: none;
+    color:  #F8309E;
+    cursor: pointer;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 50px;
+    padding-left: 5px;
+}
+.nav-list-item {
+    display: flex;
+    background: transparent;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 5px;
+}
+
+.nav-list-item--active {
+    background: #F3F6FA;
+}
+
+.nav-list-item:hover {
+    background: #F3F6FA;
+    cursor: pointer;
+}
+.nav-list-item__text {
+    flex-grow: 1;
+}
