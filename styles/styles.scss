@@ -25,11 +25,11 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 10px solid #F8309E;
+    border-top: 10px solid $brandColor;
     padding-left: 76px;
     padding-right: 76px;
     background: #F3F6FA;
-    border-radius: 0px 0px 24px 24px;
+    border-radius: 0 0 24px 24px;
 }
 .root-logo {
     display: block;
@@ -76,7 +76,7 @@ main {
     background: #E6E9EE;
     border-radius: 12px;
     cursor: pointer;
-    transition: 0.3;
+    transition: 0.3s;
 }
 .icon-btn:hover {
     background-color: rgba(0, 0, 0, 0.1);
@@ -84,7 +84,7 @@ main {
 .circle {
     position: absolute;
     box-sizing: border-box;
-    background: #F8309E;
+    background: $brandColor;
     border: 3px solid #F3F6FA;
     border-radius: 16px;
     width: 16px;
@@ -302,7 +302,7 @@ input::placeholder {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    color: #F8309E;
+    color: $brandColor;
     text-decoration: none;
 }
 .svg-decor {
