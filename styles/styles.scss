@@ -27,7 +27,6 @@ main {
     align-items: center;
     border-top: 10px solid $brandColor;
     padding-left: 76px;
-    padding-right: 10px;
     background: $brandBackground-color;
     border-radius: 0 0 24px 24px;
 }
@@ -139,7 +138,7 @@ main {
     max-width: 100%;
 }
 .main {
-    margin: 125px 10px 75px 66px; 
+    margin: 125px 0 75px 66px; 
 }
 .basic {
     display: flex;
@@ -275,11 +274,12 @@ input::placeholder {
     flex-direction: column;
     gap: 24px;
 }
-.confirm-email {
+.white-box {
     display: flex;
     align-items: center;
     padding: 12px;
     gap: 12px;
+    min-height: 68px;
     background: #FFFFFF;
     border-radius: 12px
 }
@@ -386,8 +386,8 @@ input::placeholder {
     .switch {
         position: relative;
         display: inline-block;
-        width: 60px;
-        height: 34px;
+        width: 58px;
+        height: 26px;
       }
       .switch input {display:none;}
       .slider {
@@ -404,13 +404,16 @@ input::placeholder {
       .slider:before {
         position: absolute;
         content: "";
-        height: 26px;
-        width: 26px;
-        left: 4px;
+        height: 18px;
+        width: 18px;
+        left: 8px;
         bottom: 4px;
-        background-color: white;
+        background-color: #F8309E;
         -webkit-transition: .4s;
         transition: .4s;
+      }
+      input:checked + .slider::before {  
+        background-color: #FFFFFF;
       }
       input:checked + .slider {
         background-color: #F8309E;;
@@ -481,7 +484,6 @@ input::placeholder {
         .root-header {
             display: flex;
             justify-content: space-around;
-            padding-left: 0;
         }
         .basic_conteiner {
             display: flex;
@@ -510,8 +512,8 @@ input::placeholder {
             grid-template-areas:
                 "header "
                 "main";
-            grid-template-rows: 86px;
-            grid-template-columns: 768px; 
+            grid-template-rows: 86px 1fr;
+            grid-template-columns: 1fr; 
         }
         .header-menu {
             display: none;
@@ -520,6 +522,9 @@ input::placeholder {
             display: flex;
             justify-content: space-between;
             width: 100%;
+        }
+        .main {
+            margin: 125px 0 75px 0; 
         }
         .aside-root {
             display: none;
